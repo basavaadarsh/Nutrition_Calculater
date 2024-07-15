@@ -12,8 +12,7 @@ with open('model_fat.pkl', 'rb') as f:
 with open('model_carbs.pkl', 'rb') as f:
     model_carbs = pickle.load(f)
 
-# Set light theme
-st.set_page_config(page_title="Health & Nutrition Hub", layout="wide", initial_sidebar_state="expanded")
+# Custom CSS for styling
 st.markdown("""
     <style>
     body {
