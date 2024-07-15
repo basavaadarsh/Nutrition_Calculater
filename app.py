@@ -68,7 +68,7 @@ st.markdown("""
       border-radius: 4px;
     }
     button {
-      background-color: #2ecc71;
+      background-color: #000000; /* Change to black */
       color: #ffffff;
       padding: 10px 20px;
       border: none;
@@ -78,7 +78,7 @@ st.markdown("""
       transition: background-color 0.3s ease;
     }
     button:hover {
-      background-color: #27ae60;
+      background-color: #333333; /* Darken on hover */
     }
     .result-container {
       margin-top: 20px;
