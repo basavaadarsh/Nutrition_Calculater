@@ -75,6 +75,7 @@ st.markdown("""
       border-radius: 4px;
       cursor: pointer;
       font-size: 16px;
+      transition: background-color 0.3s ease;
     }
     button:hover {
       background-color: #27ae60;
