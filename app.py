@@ -1,30 +1,19 @@
 import streamlit as st
 import numpy as np
 import pickle
-import os
-
-# Function to load model with error handling
-def load_model(file_name):
-    try:
-        with open(file_name, 'rb') as file:
-            return pickle.load(file)
-    except FileNotFoundError:
-        st.error(f"Model file '{file_name}' not found.")
-        return None
-    except Exception as e:
-        st.error(f"An error occurred while loading the model '{file_name}': {e}")
-        return None
 
 # Load the models
-model_protein = load_model('model_protein.pkl')
-model_fat = load_model('model_fat.pkl')
-model_carbs = load_model('model_carbs.pkl')
+with open('model_protein.pkl', 'rb') as f:
+    model_protein = pickle.load(f)
 
-# Check if models are loaded successfully
-if model_protein is None or model_fat is None or model_carbs is None:
-    st.stop()
+with open('model_fat.pkl', 'rb') as f:
+    model_fat = pickle.load(f)
 
-# Custom CSS for styling
+with open('model_carbs.pkl', 'rb') as f:
+    model_carbs = pickle.load(f)
+
+# Set light theme
+st.set_page_config(page_title="Health & Nutrition Hub", layout="wide", initial_sidebar_state="expanded")
 st.markdown("""
     <style>
     body {
