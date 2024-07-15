@@ -57,6 +57,18 @@ This web application allows users to:
 
 Contributions are welcome! Please feel free to fork the repository and submit pull requests to suggest improvements or new features.
 
+## Results
+
+![image](https://github.com/user-attachments/assets/690fa8b0-ea1b-4346-8ecf-fb72c1bced3e)
+
+![image](https://github.com/user-attachments/assets/d70400bd-433f-4f67-8d8f-eb43b5f45b75)
+
+## Contact
+For any questions or suggestions, feel free to reach out to Basava Adarsh.
+
+Email: [basavaadarsh4@gmail.com](mailto:basavaadarsh4@gmail.com)
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
