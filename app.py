@@ -23,6 +23,7 @@ model_carbs = load_model('model_carbs.pkl')
 # Check if models are loaded successfully
 if model_protein is None or model_fat is None or model_carbs is None:
     st.stop()
+st.set_theme('light')
 
 # Custom CSS for styling
 st.markdown("""
