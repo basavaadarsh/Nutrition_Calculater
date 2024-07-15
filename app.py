@@ -24,7 +24,6 @@ model_carbs = load_model('model_carbs.pkl')
 if model_protein is None or model_fat is None or model_carbs is None:
     st.stop()
 
-
 # Custom CSS for styling
 st.markdown("""
     <style>
